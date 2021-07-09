@@ -1,0 +1,92 @@
+body{
+    background:url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+}
+footer{
+    color:rgb(219, 212, 212);
+    margin-top:10px;
+    font-size:50px;
+    text-shadow: 2px 2px black;
+}
+button{
+    color:#fff;
+}
+
+h1{
+    color:#fff;
+    font-size: 80px;
+}
+.container{
+    height:150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background:orange;
+    height:180px;
+    width:180px;
+     margin:auto;
+     border-radius: 100%;
+
+}
+.container2{
+    height:150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    border-radius:100%;
+    background:orange;
+    height:180px;
+    width:180px;
+    margin:50px;
+
+}
+.label{
+   
+    color:white;
+    width:20px;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+    
+}
+.jap{
+    position:relative;
+    
+    bottom:250px;
+    left:200px;
+
+}
+.span{
+    position:relative;
+    bottom:100px;
+    left:400px;
+}
+.viet{
+    position:relative;
+    left:680px;
+    bottom:100px
+}
+.kor{
+    position:relative;
+    bottom:250px;
+    left:850px;
+
+}
+.hey{
+    background:url("images/japanese.ico");
+}
+.hey1{
+    background:url("images/korean.ico");
+}
+.sup{
+    background:url("images/spanish.ico");
+}
+.sup2{
+    background:url("images/vietnamese.ico");
+}
